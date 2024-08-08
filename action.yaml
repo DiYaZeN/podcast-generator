@@ -1,7 +1,6 @@
 name: "Podcast Generator"
 author: "DiYaZeN"
 description: "Generate a podcast feed from a folder of audio files"
-
 runs:
   using: "docker"
   image: "Dockerfile"
@@ -12,8 +11,8 @@ inputs:
   email:
     description: "Email address"
     required: true
-    default: "${{ github.actor }}"@localhost
+    default: ${{ github.actor }}@localhost
   name:
     description: "Name"
     required: true
-    default: "${{ github.actor }}"
+    default: ${{ github.actor }}
