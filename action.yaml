@@ -16,4 +16,4 @@ inputs:
   name:
     description: "Name"
     required: true
-    default: "P${{ github.actor }}"
+    default: "${{ github.actor }}"
