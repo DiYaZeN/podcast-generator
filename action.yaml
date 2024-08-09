@@ -1,4 +1,4 @@
-name: "Podcast Generator"
+name: "DiYaZeN's Podcast Feed Generator"
 author: "DiYaZeN"
 description: "Generate a podcast feed from a folder of audio files"
 runs:
